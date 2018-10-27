@@ -1,30 +1,35 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app" class="my-16 w-full">
+    <h1 class="mb-8">Vue CLI 3 TailwindCSS Skeleton</h1>
+
+    <div class="bg-grey-lightest py-12">
+      <Cards/>
+    </div>
+
+    <div class="xl:px-12 w-full max-w-lg mx-auto xl:w-3/4 my-16">
+      <h2>Default color palette</h2>
+      <ColorPalette/>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Cards from './components/Cards'
+import ColorPalette from './components/ColorPalette'
 
 export default {
-  name: 'app',
+  name: 'App',
   components: {
-    HelloWorld
+    Cards,
+    ColorPalette
   }
 }
 </script>
 
-<style>
-@import 'assets/styles/tailwind.postcss';
+<style lang="postcss">
+@import 'main.pcss';
 
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+h1, h2 {
+  @apply text-grey-darkest text-center;
 }
 </style>

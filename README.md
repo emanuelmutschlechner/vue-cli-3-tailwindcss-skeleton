@@ -1,4 +1,4 @@
-# vue-tailwindcss
+# Vue CLI 3 TailwindCSS Skeleton
 
 ## Project setup
 ```
