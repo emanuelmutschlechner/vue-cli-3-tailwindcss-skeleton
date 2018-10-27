@@ -718,7 +718,7 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@fullhuman/postcss-purgecss@^1.0.1":
+"@fullhuman/postcss-purgecss@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@fullhuman/postcss-purgecss/-/postcss-purgecss-1.1.0.tgz#fa423630e01b09604de42637f89eac72471b8961"
   integrity sha512-NaNJgn4ZtrWveVnele/eCW/AJYL6dwG6AW86QYQQsqOsXy8rHsA1LoDxuFye0a9PKA7lbH3h4/OxzMwkGDCqXQ==
@@ -780,7 +780,7 @@
   resolved "https://registry.yarnpkg.com/@vue/cli-overlay/-/cli-overlay-3.0.5.tgz#403bd1b4f58076ca8f85a65cf30e06cda3ce6b39"
   integrity sha512-OYwbI+HpEkEJ+eA9WkzlQOE7gjFxiOSAWHU1dIqiD041Sh+uo5OhEFfVARza7rFwHHB1emujFctYyScGx5rArA==
 
-"@vue/cli-plugin-babel@^3.0.4":
+"@vue/cli-plugin-babel@^3.0.5":
   version "3.0.5"
   resolved "https://registry.yarnpkg.com/@vue/cli-plugin-babel/-/cli-plugin-babel-3.0.5.tgz#6396e6f52771d8a9cfbfe0d9369699a390528c4a"
   integrity sha512-nZYF93CG6xfgxpljolEcejOmcHXdoqzdNmlfakFi+7Lyvwc65T7aKG4kOV3m/FD14Bh6B56xiv3rSG9GFPR6aw==
@@ -789,7 +789,7 @@
     "@vue/babel-preset-app" "^3.0.5"
     babel-loader "^8.0.0-0"
 
-"@vue/cli-plugin-eslint@^3.0.4":
+"@vue/cli-plugin-eslint@^3.0.5":
   version "3.0.5"
   resolved "https://registry.yarnpkg.com/@vue/cli-plugin-eslint/-/cli-plugin-eslint-3.0.5.tgz#d673775eaf612658f8c2fbde35610dd050c9c11a"
   integrity sha512-FIOHXr+/blWenEhOieINKOrs6y+mfSKn6JoIBkX0TvNFVw0qprKyJFnYt/Eu/1wUis9B45uhHme+3eKfzqxSVQ==
@@ -800,7 +800,7 @@
     eslint-loader "^2.0.0"
     eslint-plugin-vue "^4.5.0"
 
-"@vue/cli-service@^3.0.4":
+"@vue/cli-service@^3.0.5":
   version "3.0.5"
   resolved "https://registry.yarnpkg.com/@vue/cli-service/-/cli-service-3.0.5.tgz#6e9fec10f4eeedd0aa8fd76206fda3089142184c"
   integrity sha512-rwM0qJ8wWIOSprlulADc2VWw4BINC13lz1m2tA9+i+2PN8/zIT2bxfRqNM3fxUK5bjwQAHQhqrhcpkfOtftSXg==
@@ -4772,7 +4772,7 @@ levn@^0.3.0, levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-lint-staged@^7.2.2:
+lint-staged@^7.3.0:
   version "7.3.0"
   resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-7.3.0.tgz#90ff33e5ca61ed3dbac35b6f6502dbefdc0db58d"
   integrity sha512-AXk40M9DAiPi7f4tdJggwuKIViUplYtVj1os1MVEteW7qOkU50EOehayCfO9TsoGK24o/EsWb41yrEgfJDDjCw==
@@ -7827,7 +7827,7 @@ table@4.0.2:
     slice-ansi "1.0.0"
     string-width "^2.1.1"
 
-tailwindcss@^0.6.5:
+tailwindcss@^0.6.6:
   version "0.6.6"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-0.6.6.tgz#a8c8a8bf7d230c8bc10031672923d84af29cd34d"
   integrity sha512-g6xb7kcPIom85K7ak16AUBrwN3tPdhrQoKJ7Jl7OJ3zBOQNHthquZ1/q+0V6fj9jsC66jrDCQxn72DIjK4aYgg==
